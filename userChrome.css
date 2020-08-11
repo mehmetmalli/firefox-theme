@@ -1,0 +1,69 @@
+:root {
+    --my-color: salmon;
+    --space-above-tabbar: 1px !important;
+    --lwt-toolbarbutton-icon-fill: var(--my-color) !important;
+    --lwt-toolbarbutton-icon-fill-attention: red !important;
+}
+
+.tab-line {
+    border: solid 1px var(--my-color);
+    border-radius: 1%;
+}
+
+.browser-toolbar:not(.titlebar-color) {
+    color: var(--my-color) !important;
+}
+
+#urlbar,
+#searchbar {
+    font-size: 1.3em !important;
+}
+
+#urlbar-input {
+    color: salmon !important;
+    text-align: center !important;
+}
+
+#urlbar-input:focus {
+    color: whitesmoke !important;
+    text-align: left !important;
+}
+
+.urlbar-icon {
+    fill: var(--my-color) !important;
+    fill-opacity: 0.8 !important;
+}
+
+#identity-box,
+#tracking-protection-icon-container {
+    fill: var(--my-color) !important;
+    fill-opacity: 0.8 !important;
+}
+
+.close-icon {
+    fill: var(--my-color) !important;
+}
+
+.tab-text {
+    font-size: 14px !important;
+    color: whitesmoke !important;
+}
+
+.tab-throbber,
+.tab-throbber-tabslist,
+.tab-icon-pending,
+.tab-icon-image,
+.tab-sharing-icon-overlay {
+    height: 18px !important;
+    width: 18px !important;
+    fill: var(--my-color) !important;
+}
+
+#tabbrowser-tabs {
+    --tab-loading-fill: var(--my-color) !important;
+}
+
+.tabbrowser-tab[multiselected]:-moz-lwtheme,
+.tabbrowser-tab[visuallyselected="true"]:-moz-lwtheme {
+    color: var(--lwt-tab-text, var(--my-color)) !important;
+}

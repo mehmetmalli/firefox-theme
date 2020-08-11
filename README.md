@@ -1,0 +1,1 @@
+![Homepage](https://raw.githubusercontent.com/mehmetmalli/firefox-theme/master/Preview.png)
